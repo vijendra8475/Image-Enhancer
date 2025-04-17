@@ -25,7 +25,7 @@ const ImgPreview = ({loading, enhanced, uploaded}) => {
              <h2 className='text-xl font-semibold text-center bg-gray-800 text-white p-2 rounded-lg'>Enhanced Image</h2>
              {
                 enhanced ?
-                <img src={enhanced} alt="" className='max-h-full w-full object-cover' />
+                <img src={enhanced} alt="" className=' w-full object-cover mt-2 h-60' />
                 :
                     uploaded ? <Loading/> :
                     <div className="flex items-center justify-center h-40 bg-gray-300">
